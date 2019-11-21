@@ -8,19 +8,18 @@ $(".bt-next").click(function(){
 	ani();
 });
 function ani() {
-	$(".banners").stop().animate({"left": (-720*now)+"px"}, 500, function(){
-		if(now == 0) {
-			$(".bt-prev").hide();
-			$(".bt-next").show();
-		}
-		else if(now == 4) {
-			$(".bt-prev").show();
-			$(".bt-next").hide();
-		}
-		else {
-			$(".bt-prev").show();
-			$(".bt-next").show();
-		}
-	});
+	$(".banners").stop().animate({"left": (-720*now)+"px"}, 500);
+	if(now == 0) {
+		$(".bt-prev").hide();
+		$(".bt-next").show();
+	}
+	else if(now == 4) {
+		$(".bt-prev").show();
+		$(".bt-next").hide();
+	}
+	else {
+		$(".bt-prev").show();
+		$(".bt-next").show();
+	}
 }
 
