@@ -312,10 +312,10 @@ body {
 
 /* Header */
 .top-banner {
-	background-color: #ffe8e8;
+	background-color: #383838;
 	position: relative;
 	text-align: center;
-	color: #b05d5d;
+	color: #e7e7e7;
 	font-size: 0.75rem;
 	padding: 0.5rem 0;
 }
