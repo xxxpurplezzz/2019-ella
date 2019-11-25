@@ -135,6 +135,16 @@ $(".choice-navi").click(function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
 // 배너 - (fade, slide(전체), slide(하나씩), slide(세로))
 // 메인 배너
 /* (function(){
